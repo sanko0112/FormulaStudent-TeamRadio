@@ -101,29 +101,50 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document4]
+DocumentPath=PCB1.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LKDMOAUY
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for FormulaStudent-TeamRadio\Design Rule Check - PCB1.html
+DItemRevisionGUID=
+
 [Parameter1]
-Name=G.URL
-Value=www.lzrsystems.com
+Name=G.Author
+Value=Lázár Sándor
 
 [Parameter2]
-Name=G.Title
-Value=Formula Student Team Radio
-
-[Parameter3]
-Name=G.Revision
-Value=Rev.1
-
-[Parameter4]
-Name=G.Project
-Value=FS-TeamRadio
-
-[Parameter5]
 Name=G.Description
 Value=Long range audio transmit/receive board
 
+[Parameter3]
+Name=G.Project
+Value=FS-TeamRadio
+
+[Parameter4]
+Name=G.Revision
+Value=Rev.1
+
+[Parameter5]
+Name=G.Title
+Value=Formula Student Team Radio
+
 [Parameter6]
-Name=G.Author
-Value=Lázár Sándor
+Name=G.URL
+Value=www.lzrsystems.com
 
 [Configuration1]
 Name=Sources
@@ -1135,10 +1156,16 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Vault Name
+ComponentLibraryIdentifier0=Sandor Lazar
+ComponentDesignItemID0=CMP-00029-00002-3
+ComponentSymbolReference0=BH-123A-A1CJ002
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1152,6 +1179,67 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Add into BOM
+ParameterUpdate0=1
+ParameterName1=Battery Type
+ParameterUpdate1=1
+ParameterName2=Case/Package
+ParameterUpdate2=1
+ParameterName3=Comment
+ParameterUpdate3=1
+ParameterName4=Component Kind
+ParameterUpdate4=1
+ParameterName5=Connector Type
+ParameterUpdate5=1
+ParameterName6=Contact Material
+ParameterUpdate6=1
+ParameterName7=Contact Plating
+ParameterUpdate7=1
+ParameterName8=Convert to PCB
+ParameterUpdate8=1
+ParameterName9=Datasheet
+ParameterUpdate9=1
+ParameterName10=Description
+ParameterUpdate10=1
+ParameterName11=Design Item ID
+ParameterUpdate11=1
+ParameterName12=Device
+ParameterUpdate12=1
+ParameterName13=JLCPCB Part Class
+ParameterUpdate13=1
+ParameterName14=LCSC Part Name
+ParameterUpdate14=1
+ParameterName15=Library Reference
+ParameterUpdate15=1
+ParameterName16=Manufacturer
+ParameterUpdate16=1
+ParameterName17=Manufacturer Part
+ParameterUpdate17=1
+ParameterName18=Max Operating Temperature
+ParameterUpdate18=1
+ParameterName19=Min Operating Temperature
+ParameterUpdate19=1
+ParameterName20=Mounting Technology
+ParameterUpdate20=1
+ParameterName21=Operating Temperature
+ParameterUpdate21=1
+ParameterName22=Pins
+ParameterUpdate22=1
+ParameterName23=RoHS Compliant
+ParameterUpdate23=1
+ParameterName24=Source
+ParameterUpdate24=1
+ParameterName25=Supplier Footprint
+ParameterUpdate25=1
+ParameterName26=Supplier Part
+ParameterUpdate26=1
+ParameterName27=Symbol
+ParameterUpdate27=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=BAT-TH_BH-123A-A5BJ002
+ModelUpdate0=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
